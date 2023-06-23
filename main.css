@@ -1,0 +1,126 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+#body {
+    background-color: #100151;
+    background-image: url('images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg');
+    background-position: center auto;
+    background-repeat: no-repeat;
+    color: #f1faef;
+    text-shadow: 1px 1px #100151;
+    font-family: arial, "Andale Mono", Helvetica, sans-serif;
+}
+
+#top-bar {
+    border-bottom: solid white;
+    margin: 10px 15px 10px 15px;
+    padding-bottom: 10px;
+    
+}
+
+#title {
+    float: left;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #f1faef;
+    padding: 5px;
+}
+
+#content {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 90px;
+    border-bottom: solid #f1faef;
+    padding: 20px 5px;
+    width: 500px;
+    margin: 5px;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Montserrat ExtraLight", "Montserrat", "helvetica neue", sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 50%;
+    width: 800px;
+    margin: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#menu {
+    background-color: black;
+    background-position: center auto;
+    background-repeat: no-repeat;
+    color: #f1faef;
+    font-family: arial, "Andale Mono", Helvetica, sans-serif;
+}
+
+#bread {
+    display: flex;
+    background-color: #000;
+}
+
+#pineapple {
+    display: flex;
+    background-color: #111;
+}
+
+#pasta {
+    display: flex;
+    background-color: #222;
+}
+
+img {
+    height: 500px;
+}
+
+#breadtxt {
+    display: inherit;
+    flex-direction: column;
+    margin: 30px;
+    margin: 100px 70px;
+}
+
+#pineappletxt {
+    display: inherit;
+    flex-direction: column;
+    margin: 30px;
+    margin: 100px 70px;
+}
+
+#pastatxt {
+    display: inherit;
+    flex-direction: column;
+    margin: 100px 70px;
+}
+
+h2 {
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+
+#menup {
+    font-family: "Montserrat ExtraLight", "Montserrat", "helvetica neue", sans-serif;
+}
